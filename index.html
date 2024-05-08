@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Checkpoint</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[#fff] text-[#725f12]">
+    
+    <!-- header section -->
+    <header class=" bg-[#1D2641]  flex justify-between items-center mb-[6rem]">
+        <img class="h-[5rem]" src="images/logo.png" alt="">
+        <nav class="flex gap-4 md:gap-9 ml-8 md:ml-0 mr-[80px] text-lg font-bold"> 
+            <a  href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+     <main>
+        <!-- blogs section -->
+        <section id="blogs" class="mb-[5rem]">
+    <div class="flex flex-col md:flex-row justify-center gap-6">
+            <div class="relative group">
+                    <img class="h-[25rem] w-[25rem] rounded-lg" src="images/bl1.jpg" alt="">
+                <div class="absolute bottom-0 left-0 right-0 py-6 px-4 text-white duration-500 
+                    bg-[#286171] opacity-100 group-hover:opacity-50 hover:bg-opacity-40">
+                    <div class="flex justify-between w-full ">
+                        <div class="font-normal text-center">
+                            <h1 class="text-lg">Team Work</h1>
+                            <p class="text-xs">Publication Date: 20/02/1997</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative group">
+                <img class="h-[25rem] w-[25rem] rounded-lg" src="images/bl2.jpg" alt="">
+            <div class="absolute bottom-0 left-0 right-0 py-6 px-4 text-white duration-500 
+            bg-[#F8B9B9] opacity-100 group-hover:opacity-50 hover:bg-opacity-40">
+                <div class="flex justify-between w-full ">
+                    <div class="font-normal text-center">
+                        <h1 class="text-lg">Team Work</h1>
+                        <p class="text-xs">Publication Date: 20/02/1997</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        <div class="relative group">
+            <img class="h-[25rem] w-[25rem] rounded-lg" src="images/bl3.jpg" alt="">
+        <div class="absolute bottom-0 left-0 right-0 py-6 px-4 text-white duration-500 
+            bg-[#CC9235] opacity-100 group-hover:opacity-50 hover:bg-opacity-40">
+            <div class="flex justify-between w-full ">
+                <div class="font-normal text-center">
+                    <h1 class="text-lg">Team Work</h1>
+                    <p class="text-xs">Publication Date: 20/02/1997</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                
+               
+                
+        </div>
+            
+
+        </section>
+
+        <!-- category section -->
+        <section id="category" class="mb-4">
+            <div class="flex flex-col bg-[#1D2641] px-3 md:px-[5rem] py-[3rem]">
+                <div class="mb-4">
+                    <h1 class="text-2xl">Categories</h1>
+                </div>
+                <div class="flex gap-3 md:gap-5 text-center">
+                    <a class="bg-[#F7F7C2] py-2 px-6 rounded-2xl font-bold" href="">Category 1</a>
+                    <a class="bg-[#F7F7C2] py-2 px-6 rounded-2xl font-bold" href="">Category 2</a>
+                    <a class="bg-[#F7F7C2] py-2 px-6 rounded-2xl font-bold" href="">Category 3</a>
+                </div>
+            </div>
+        </section>
+        <!-- recent section -->
+        <section id="recent" class="mb-8">
+            <div class="flex flex-col ml-[40px]">
+                <div>
+                    <h1 class="text-2xl font-bold mb-4 underline">Recent Posts</h1>
+                </div>
+                <div class="mb-8 flex flex-col gap-2">
+                     <p class="text-lg font-semibold">How to be a Tech Guru <span class="text-sm ml-4 font-medium">1st april 2024</span> </p>
+                     <p class="text-lg font-semibold">How to Sweet Talk YOur way Always <span class="text-sm ml-4 font-medium">5th April 2024</span> </p>
+                     <p class="text-lg font-semibold">How to Make a Man Fall For You  <span class="text-sm ml-4 font-medium">10th April 2024</span> </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="mt-[100px] relative  text-white ">
+            <div class="flex md:flex-row flex-col md:justify-between items-center rounded-xl absolute px-[20px] py-[20px] md:px-0 md:py-0 md:h-[10rem] bg-[#2A4DBE] top-[-70px] md:top-[-90px] left-[50px] right-[50px]">
+                <div class="md:ml-[3rem]"><h1 class="tracking-wider md:text-4xl font-semibold ">Subscribe to Our Blog</h1></div>
+               <div class="md:mr-[3rem] text-black flex flex-col md:flex-row"> <input class="outline-none py-[5px] px-[2rem] md:px-[9rem] rounded-2xl bg-[#6A82D1]" type="text" placeholder="Enter your email">
+                <button class="bg-white py-[5px] md:px-[4rem] rounded-2xl">Subscribe</button></div>
+            </div>
+            <div class="px-8 pb-8 bg-[#1D2641] ">
+                <div class="grid grid-cols-2 gap-y-7 md:gap-y-0 md:flex md:flex-row justify-evenly items-center pt-[5rem]">
+                    <div class="flex flex-col ">
+                        <div>
+                            <h1 class="mb-4 text-xl font-bold">RESOURCES</h1>
+                        </div>
+                        <div class="flex flex-col">
+                            <a href="">Application</a>
+                            <a href="">Documentation</a>
+                            <a href="">Systems</a>
+                            <a href="">Faqs</a>
+                        </div>
+                     </div>
+
+                     <div class="flex flex-col">
+                        <div>
+                            <h1 class="mb-4 text-xl font-bold">PRICING</h1>
+                        </div>
+                        <div class="flex flex-col">
+                            <a href="">Overview</a>
+                            <a href="">Premium Plane</a>
+                            <a href="">Affiliate Program</a>
+                            <a href="">Promotions</a>
+                        </div>
+                     </div>
+
+                     <div class="flex flex-col">
+                        <div>
+                            <h1 class="mb-4 text-xl font-bold">COMPANY</h1>
+                        </div>
+                        <div class="flex flex-col">
+                            <a href="">About Us</a>
+                            <a href="">Blog</a>
+                            <a href="">Partnerships</a>
+                            <a href="">Careers</a>
+                        </div>
+                     </div>
+
+                     <div class="flex flex-col mt-6 md:mt-0">
+                        <div>
+                            <h1 class="mb-4 text-xl font-bold">SOCIAL</h1>
+                        </div>
+                        <div class="flex flex-col gap-2 ml-6 ">
+                            <a class="text-2xl" href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a class="text-2xl" href=""><i class="fa-brands fa-x-twitter"></i></a>
+                            <a class="text-2xl" href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a class="text-2xl" href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                     </div> 
+
+                </div>
+            </div>
+            
+
+        </footer>
+     </main>
+     
+</body>
+</html>
